@@ -1,0 +1,81 @@
+/* style.css */
+
+/* Body styles */
+/* Body styles */
+.root {
+    -fx-font-family: Arial;
+}
+
+/* Set background photo */
+.root {
+    -fx-background-image: url('background.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+/* Thumbnail styles */
+.thumbnail {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+}
+
+/* Navigation button styles */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
+
+/* Full size image styles */
+.stack-pane {
+    -fx-background-color: #f0f0f0; /* Light gray */
+}
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+}
+
+/* Additional features */
+
+/* Grid Pane Styling */
+.grid-pane {
+    -fx-padding: 20px;
+    -fx-hgap: 15px;
+    -fx-vgap: 15px;
+}
+
+/* Border Pane Styling */
+.border-pane {
+    -fx-padding: 20px;
+}
+
+/* Navigation Pane Styling */
+.navigation-pane {
+    -fx-spacing: 20px;
+}
+
+/* Previous and Next Button Styling */
+.previous-button, .next-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.previous-button:hover, .next-button:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
+
+/* Full Size Image Styling */
+.full-size-image {
+    -fx-background-color: #fff; /* White */
+}
